@@ -1,0 +1,142 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Segoe UI', sans-serif;
+}
+
+body{
+background:#F8FAFC;
+color:#0F172A;
+scroll-behavior:smooth;
+}
+
+/* HERO */
+.hero{
+height:100vh;
+background:linear-gradient(135deg,#0F172A,#2563EB,#7C3AED);
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:10px;
+}
+
+.hero h3{
+font-weight:400;
+margin-bottom:10px;
+}
+
+.hero p{
+margin-bottom:20px;
+}
+
+.buttons .btn{
+background:white;
+color:#2563EB;
+padding:10px 20px;
+margin:10px;
+text-decoration:none;
+border-radius:25px;
+font-weight:bold;
+}
+
+.btn-outline{
+border:2px solid white;
+color:white;
+padding:10px 20px;
+border-radius:25px;
+text-decoration:none;
+}
+
+.section{
+padding:80px 10%;
+}
+
+.section h2{
+margin-bottom:30px;
+font-size:32px;
+color:#2563EB;
+}
+
+.dark{
+background:#0F172A;
+color:white;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+.dark .card{
+background:#1E293B;
+}
+
+.about-text{
+line-height:1.7;
+font-size:18px;
+}
+
+/* Skills */
+.skill{
+margin-bottom:20px;
+}
+
+.progress{
+background:#ddd;
+border-radius:20px;
+overflow:hidden;
+}
+
+.progress div{
+height:10px;
+background:linear-gradient(to right,#2563EB,#7C3AED);
+}
+
+/* Projects */
+.project-card{
+background:white;
+padding:25px;
+margin-bottom:20px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.dark .project-card{
+background:#1E293B;
+}
+
+.project-card a{
+color:#2563EB;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* Contact */
+.contact-box{
+background:white;
+padding:25px;
+border-radius:10px;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#0F172A;
+color:white;
+}
